@@ -163,3 +163,5 @@
   <target name="all" depends="test.report, coverage.report, war"/>
 
 </project>
+
+<!-- End of the script -->
