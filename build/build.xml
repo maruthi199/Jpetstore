@@ -103,6 +103,7 @@
   </target>
 
   <target name="test.report" depends="test" >
+    <echo message="Executing Junit test reports"/>
     <junitreport todir="${junitreports}">
       <fileset dir="${junitreports}">
         <include name="TEST-*.xml"/>
