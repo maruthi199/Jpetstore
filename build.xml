@@ -1,5 +1,7 @@
 <project name="JPetStore" default="all" basedir=".">
 
+
+
   <property environment="env"/>
   <property name="web" value="web"/>
   <property name="src" value="src"/>
