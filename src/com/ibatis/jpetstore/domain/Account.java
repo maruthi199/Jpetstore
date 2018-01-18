@@ -2,10 +2,6 @@ package com.ibatis.jpetstore.domain;
 
 import java.io.Serializable;
 
-
-
-// changed to fix defect JPETSTORE -13
-
 public class Account implements Serializable {
 
   private String username;
