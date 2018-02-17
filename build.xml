@@ -8,7 +8,7 @@
   <property name="devlib" value="devlib"/>
 
   <property name="wars" value="wars"/>
-  <property name="warfile" value="${wars}/jpetstore-${Version_Number}.${env.BUILD_NUMBER}.war"/>
+  <property name="warfile" value="${wars}/jpetstore.war"/>
 
   <property name="webapp" value="webapp"/>
   <property name="weblib" value="${webapp}/WEB-INF/lib/"/>
