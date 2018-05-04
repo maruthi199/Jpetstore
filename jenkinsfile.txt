@@ -1,0 +1,17 @@
+Jenkinsfile (Declarative Pipeline)
+node {
+    
+    stage 'Checkout'
+    checkout([$class: 'GitSCM',
+    branches: [[name: '*/master']],
+    doGenerateSubmoduleConfigurations: false,
+    extensions: [[$class: 'CleanCheckout']],
+    submoduleCfg: [],
+    userRemoteConfigs: [[credentialsId: 'cc5da0c6-5d6d-477f-923f-d5bd30fa3741', url: 'https://github.com/pradeepmarepally/Jpetstore_New.git']]
+])
+  
+    stage 'Build and Test'
+    env.PATH = "${tool 'Ant-1.10.1'}/bin:${env.PATH}"
+    checkout scm
+    bat 'ant build'
+ }

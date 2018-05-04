@@ -164,4 +164,6 @@
   <target name="all" depends="test.report, coverage.report, war"/>
 
 </project>
+
+<!-- Comment added to test -->
 <!-- End of the script -->
