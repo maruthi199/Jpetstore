@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="1.0.0" application="JpetStore">
+ <application />
+ <deployables>
+  <jee.War name="/jpetstore" file="\wars\jpetstore.war"/>
+ <dependencyResolution>LATEST</dependencyResolution>
+ <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>
+</deployables>
