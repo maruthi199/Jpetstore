@@ -5,5 +5,5 @@
   <jee.War name="/jpetstore" file="\wars\jpetstore.war"/>
  <dependencyResolution>LATEST</dependencyResolution>
  <undeployDependencies>false</undeployDependencies>
+ </deployables>
 </udm.DeploymentPackage>
-</deployables>
