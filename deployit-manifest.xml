@@ -2,7 +2,7 @@
 <udm.DeploymentPackage version="1.0.0" application="JpetStore">
  <application />
  <deployables>
-  <jee.War name="/jpetstore" file="\jpetstore.war"/>
+  <jee.War name="/jpetstore" file="/jpetstore.war">
  <dependencyResolution>LATEST</dependencyResolution>
  <undeployDependencies>false</undeployDependencies>
  </deployables>
